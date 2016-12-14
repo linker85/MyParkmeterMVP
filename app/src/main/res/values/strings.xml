@@ -1,0 +1,118 @@
+<resources>
+    <string name="dialog_action_ok">OK</string>
+    <string name="dialog_action_cancel">Cancel</string>
+    <string name="dialog_error_title">Sorry</string>
+
+    <string name="empty_ribots">There aren\'t any ribots</string>
+    <string name="error_loading_ribots">There was a problem loading the ribots</string>
+
+    <string name="app_name">My parking meter app</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_home">Check in/out</string>
+    <string name="nav_more_time">Extend time</string>
+    <string name="nav_reg_pay">Register payment</string>
+    <string name="nav_notifications">Notifications</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_about_us">About Us</string>
+    <string name="nav_sign_off">Sign off</string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Check in</item>
+        <item>Check out</item>
+        <item>Register payment</item>
+        <item>Notifications</item>
+        <item>Settings</item>
+        <item>Sign off</item>
+    </string-array>
+
+    <string name="activity_title_about_us">About Us</string>
+    <string name="activity_title_privacy_policy">Privacy Policy</string>
+    <string name="action_clear_all">Clear All</string>
+    <string name="action_logout">Sign off</string>
+    <string name="action_mark_all_read">Mark All as Read</string>
+    <string name="privacy_policy">Privacy Policy</string>
+
+    <!-- String for settings -->
+    <string name="action_settings">Settings</string>
+    <string name="hint_name">Full Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="err_msg_name">Enter your full name</string>
+    <string name="err_msg_email">Enter valid email address</string>
+    <string name="err_msg_password">Enter the password</string>
+    <string name="err_msg_plate">Enter the plate</string>
+
+    <!-- String for register payment -->
+    <string name="hint_register">Enter your card number</string>
+    <string name="hint_year">Enter a valid year</string>
+    <string name="hint_month">Enter a valid month</string>
+    <string name="hint_cvv">Enter a valid cvv</string>
+    <!-- String for commons -->
+    <string name="save">Save</string>
+    <string name="hint_card_number">Card number</string>
+    <string name="hint_card_month">MM</string>
+    <string name="hint_card_year">YYYY</string>
+    <string name="hint_card_cvv">CVV</string>
+    <string name="scan">Scan</string>
+    <string name="choose_how_long_you_want_to_stay">Choose how long you want to stay</string>
+    <string name="check_in">Check in</string>
+
+    <!-- LoginActivity -->
+    <string name="sign_in">Sign in</string>
+    <string name="register">Sign up</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="date_view_set">Initial dateS</string>
+    <string name="date_view_end">End dateS</string>
+    <string name="lorem">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</string>
+    <string name="hint_plate">Plate</string>
+    <string name="forgot">Forgot password</string>
+    <string name="scan_card">Scan card</string>
+    <string name="card_number">Card number</string>
+    <string name="error_occurred">An error occurred.</string>
+    <string name="hello">Hello</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="invalid_user_pass">Invalid user or password</string>
+    <string name="loading">Loading...</string>
+    <string name="extend_time">Extend time</string>
+    <string name="sign_up">Sign up</string>
+    <string name="next">Next</string>
+    <string name="notifications_instructions">Select start and end date</string>
+    <string name="ok">OK</string>
+    <string name="error_register_card">An error ocurred while trying to register your card.</string>
+    <string name="card_already_registered">Enter new card number to update payment method.</string>
+    <string name="scan_canceled">Scan was canceled.</string>
+    <string name="card_not_registered">Your card couldn´t be registered.</string>
+    <string name="card_registered">Your card was registered</string>
+    <string name="get_new_password">Get a new password</string>
+    <string name="user_not_registered">Your user couldn´t be registered.</string>
+    <string name="email_send">An email was send with a new temporary password.</string>
+    <string name="settings_updated">Your user settings have been updated.</string>
+    <string name="check_out">Check out</string>
+    <string name="no_scanner_found">No Scanner Found</string>
+    <string name="download_scanner">Download a scanner code activity?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="check_in_successful">Check in was succesful</string>
+    <string name="check_out_successful">Check out was succesful</string>
+    <string name="success_extend_time">You´ve succesfully extend your checkin time.</string>
+    <string name="ask_extend_time">For how long do you wish to extend your time?</string>
+    <string name="success_checkin">You´ve succesfully checkin.</string>
+    <string name="checkin_validation">You need to Check in before extending time.</string>
+    <string name="choosen">"You have choosen "</string>
+    <string name="and">" and "</string>
+    <string name="pay_question">, you have to pay: $</string>
+    <string name="do_you_accept">Do you accept?</string>
+    <string name="saving">Saving...</string>
+    <string name="error_setting_time">An error ocurred, your time couldn´t be set.</string>
+    <string name="select_time_instruction">Select a time before saving.</string>
+    <string name="no_notifications">No notifications were found.</string>
+</resources>
