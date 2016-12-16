@@ -2,6 +2,7 @@ package uk.co.ribot.androidboilerplate.injection.module;
 
 import android.app.Activity;
 import android.content.Context;
+import android.os.Handler;
 
 import dagger.Module;
 import dagger.Provides;
@@ -14,6 +15,11 @@ public class ActivityModule {
 
     public ActivityModule(Activity activity) {
         mActivity = activity;
+    }
+
+    @Provides
+    Handler provideHandler() {
+        return new Handler();
     }
 
     @Provides

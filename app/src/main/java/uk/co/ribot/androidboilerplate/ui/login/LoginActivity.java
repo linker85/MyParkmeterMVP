@@ -10,7 +10,6 @@ import android.text.TextUtils;
 import android.text.TextWatcher;
 import android.util.Log;
 import android.view.View;
-import android.view.WindowManager;
 import android.widget.CheckBox;
 import android.widget.TextView;
 
@@ -21,6 +20,7 @@ import butterknife.ButterKnife;
 import uk.co.ribot.androidboilerplate.R;
 import uk.co.ribot.androidboilerplate.data.model.LoginResponse;
 import uk.co.ribot.androidboilerplate.ui.base.BaseActivity;
+import uk.co.ribot.androidboilerplate.ui.forgot_password.ForgotPasswordActivity;
 import uk.co.ribot.androidboilerplate.ui.main.MainActivity;
 
 public class LoginActivity extends BaseActivity implements LoginMvpView {
@@ -166,12 +166,6 @@ public class LoginActivity extends BaseActivity implements LoginMvpView {
 
     ////////////////////////////////////////////////////////////////////////////////////////////////
 
-    private void requestFocus(View view) {
-        if (view.requestFocus()) {
-            getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_VISIBLE);
-        }
-    }
-
     public void doSignIn(View view) {
         boolean isValid = mLoginPresenter.validateInput(emailSignInTxt.getText().toString(), 1) &&
                 mLoginPresenter.validateInput(passwordSignInTxt.getText().toString(), 2);
@@ -180,6 +174,11 @@ public class LoginActivity extends BaseActivity implements LoginMvpView {
                     passwordSignInTxt.getText().toString(), userId);
         }
 
+    }
+
+    public void doForgotPassword(View view) {
+        Intent intent = new Intent(this, ForgotPasswordActivity.class);
+        startActivity(intent);
     }
 
     private class MyTextWatcherLogin implements TextWatcher {
